@@ -25,6 +25,7 @@ class PersonListTableViewController: UITableViewController {
         cell.contentConfiguration = content
         return cell
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let detailVC = segue.destination as? DetailViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
