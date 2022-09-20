@@ -51,36 +51,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" textLabel="teH-wx-Mpn" detailTextLabel="qLc-gJ-HNl" imageView="aT9-m3-5q2" rowHeight="70" style="IBUITableViewCellStyleSubtitle" id="fbG-dw-Iel">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" textLabel="itj-l5-F7a" detailTextLabel="IcG-Ia-8PP" imageView="Pjo-F7-4q8" rowHeight="70" style="IBUITableViewCellStyleSubtitle" id="fbG-dw-Iel">
                                 <rect key="frame" x="20" y="38" width="374" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fbG-dw-Iel" id="Mbc-RT-wjG">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="teH-wx-Mpn">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="itj-l5-F7a">
                                             <rect key="frame" x="59" y="19" width="25" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qLc-gJ-HNl">
-                                            <rect key="frame" x="59" y="35.5" width="33" height="14.5"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IcG-Ia-8PP">
+                                            <rect key="frame" x="59" y="35.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aT9-m3-5q2">
-                                            <rect key="frame" x="23.5" y="25" width="17" height="20"/>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pjo-F7-4q8">
+                                            <rect key="frame" x="21" y="21.5" width="22" height="28"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <imageReference key="image" image="iphone.smartbatterycase.gen2" catalog="system" variableValue="0.0"/>
+                                            <imageReference key="image" image="iphone.badge.play" catalog="system" symbolScale="large" variableValue="0.80000000000000004"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="iYN-G5-zXN" id="VFu-ZU-5Ut"/>
                             <outlet property="delegate" destination="iYN-G5-zXN" id="rjC-dg-rco"/>
@@ -194,7 +195,7 @@
         <!--PersonList-->
         <scene sceneID="M3s-lL-oLf">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FXr-74-jdI" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" automaticallyAdjustsScrollViewInsets="NO" id="FXr-74-jdI" customClass="TabBarViewController" customModule="RandomPersonList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="PersonList" id="AcS-uA-Ahb"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nye-2G-MiI">
@@ -213,7 +214,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iphone.smartbatterycase.gen2" catalog="system" width="112" height="128"/>
+        <image name="iphone.badge.play" catalog="system" width="109" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

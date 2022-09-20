@@ -9,7 +9,7 @@ import UIKit
 
 class PersonListTableViewController: UITableViewController {
     
-    private var persons = Person.getPerson().shuffled()
+   var persons: [Person] = []
 
     // MARK: - Table view data source
 

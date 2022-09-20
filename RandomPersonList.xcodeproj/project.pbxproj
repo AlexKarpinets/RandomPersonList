@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA72302528D78FA500F56D39 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72302428D78FA500F56D39 /* TabBarViewController.swift */; };
 		FAC1024A28D6123F00565A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1024928D6123F00565A6B /* AppDelegate.swift */; };
 		FAC1024C28D6123F00565A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1024B28D6123F00565A6B /* SceneDelegate.swift */; };
 		FAC1025128D6123F00565A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC1024F28D6123F00565A6B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA72302428D78FA500F56D39 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		FAC1024628D6123F00565A6B /* RandomPersonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPersonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC1024928D6123F00565A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC1024B28D6123F00565A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		FAC1026528D61C9800565A6B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA72302428D78FA500F56D39 /* TabBarViewController.swift */,
 				FAC1025D28D613EF00565A6B /* PersonListTableViewController.swift */,
 				FAC1025F28D6148E00565A6B /* DetailViewController.swift */,
 				FAC1026128D614F100565A6B /* ContactsTableViewController.swift */,
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA72302528D78FA500F56D39 /* TabBarViewController.swift in Sources */,
 				FAC1026428D6176C00565A6B /* Person.swift in Sources */,
 				FAC1024A28D6123F00565A6B /* AppDelegate.swift in Sources */,
 				FAC1024C28D6123F00565A6B /* SceneDelegate.swift in Sources */,
